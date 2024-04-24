@@ -1,3 +1,5 @@
+<?php include("partials/info.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 
@@ -13,21 +15,21 @@
 
 <?php require('partials/nav.php')?>
 
-            <div class="kingster-page-title-wrap  kingster-style-custom kingster-left-align" style="background-image: url(upload/shutterstock_59887279.jpg) ;">
+            <div class="kingster-page-title-wrap  kingster-style-custom kingster-left-align" style="background-image: url(images/campaignOne/5.png) ;">
                 <div class="kingster-header-transparent-substitute"></div>
                 <div class="kingster-page-title-overlay"></div>
                 <div class="kingster-page-title-bottom-gradient"></div>
                 <div class="kingster-page-title-container kingster-container">
                     <div class="kingster-page-title-content kingster-item-pdlr" style="padding-top: 400px ;padding-bottom: 60px ;">
                         <div class="kingster-page-caption" style="font-size: 21px ;font-weight: 400 ;letter-spacing: 0px ;">Undergraduate Program</div>
-                        <h1 class="kingster-page-title" style="font-size: 48px ;font-weight: 700 ;text-transform: none ;letter-spacing: 0px ;color: #ffffff ;">Bachelor Of Science in Business Administration</h1></div>
+                        <h1 class="kingster-page-title" style="font-size: 48px ;font-weight: 700 ;text-transform: none ;letter-spacing: 0px ;color: #ffffff ;"><?php echo $campaignOneName; ?></h1></div>
                 </div>
             </div>
             <div class="kingster-breadcrumbs">
                 <div class="kingster-breadcrumbs-container kingster-container">
-                    <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Kingster." href="index.html" class="home"><span property="name">Home</span></a>
+                    <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go Home" href="index.php" class="home"><span property="name">Home</span></a>
                         <meta property="position" content="1">
-                        </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Bachelor Of Science in Business Administration</span>
+                        </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name"><?php echo $campaignOneName; ?></span>
                         <meta property="position" content="2">
                         </span>
                     </div>
