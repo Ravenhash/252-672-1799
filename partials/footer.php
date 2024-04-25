@@ -11,15 +11,15 @@
                   <img
                     width="250"
                     height="250"
-                    src="https://togi.ac.za/wp-content/uploads/2020/07/FooterLogo_250px.png"
+                    src="images/FooterLogo_250px.png"
                     class="image wp-image-6216 attachment-full size-full"
                     alt="TOGI Logo"
                     style="max-width: 100%; height: auto"
                     decoding="async"
                     loading="lazy"
                     srcset="
-                      https://togi.ac.za/wp-content/uploads/2020/07/FooterLogo_250px.png         250w,
-                      https://togi.ac.za/wp-content/uploads/2020/07/FooterLogo_250px-150x150.png 150w
+                      images/FooterLogo_250px.png         250w,
+                      images/FooterLogo_250px-150x150.png 150w
                     "
                     sizes="(max-width: 250px) 100vw, 250px"
                   />
@@ -60,7 +60,7 @@
               </div>
               <div
                 class="kingster-footer-column kingster-item-pdlr kingster-column-15"
-              >
+              > 
 
               </div>
               <div
@@ -83,7 +83,7 @@
               class="kingster-copyright-container kingster-container clearfix"
             >
               <div class="kingster-copyright-left kingster-item-pdlr">
-                Copyright All Right Reserved 2024, Two Oceans Graduate Institute
+                Copyright All Right Reserved <?php echo date("Y");?>, Two Oceans Graduate Institute
               </div>
               <div class="kingster-copyright-right kingster-item-pdlr">
                 <div

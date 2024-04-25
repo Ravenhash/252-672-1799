@@ -1,4 +1,4 @@
-Cnr Prince George Drive &amp; 8th Ave, Grassy Park, Cape Town, 7941
+1st Floor Pinewood Park, 98 Forest Drive Service Road, Pinelands, Cape Town, 7405
 <p>
 <p>
 PO Box 46863, Glosderry, 7702, Cape Town, South Africa
